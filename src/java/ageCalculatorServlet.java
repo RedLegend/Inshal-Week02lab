@@ -94,10 +94,10 @@ public class ageCalculatorServlet extends HttpServlet {
       
         }
         else {
-            int nextYear= Integer.parseInt(ageCalculate);
-            nextYear++;
+            int nextAge= Integer.parseInt(ageCalculate);
+            nextAge++;
         
-           message = "Your age next birthday will be: " + nextYear; 
+           message = "Your age next birthday will be " + nextAge; 
         
         request.setAttribute("message", message);
         System.out.println("Hello");
