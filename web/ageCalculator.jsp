@@ -12,9 +12,15 @@
         <title>JSP Page</title>
     </head>
     <body>
-        <form>
-                <b>Enter your age: </b><input type = "text" age = "age" /><br />
-                <input type = "submit" />
+         <h1>Age Calculator</h1>
+        <form action="age" method="post">
+            <label>Enter your age:</label>
+            <input type="text" name="age"><br>
+            <input type="submit" value="Age next birthday">
+            
         </form>
+        ${message}
+        <br>
+        <a href="arithmetic">Arithmetic Calculator</a>
     </body>
 </html>
